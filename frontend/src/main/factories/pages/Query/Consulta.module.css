@@ -1,0 +1,135 @@
+.Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.headerTitle{
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  margin: 4rem 8rem;
+
+}
+
+.Querys{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 14px;
+  margin-top: 4rem;
+  padding: 8rem;
+}
+
+.Quad1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+
+.Quad2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 4rem;
+}
+
+.Querys input {
+  background: rgba(0, 0, 0, 0.12);
+  border: 1px solid #FFFFFF;
+  border-radius: 34px;
+  width: 280px;
+  height: 48px;
+  border-color: #FFFFFF;
+  color: #fff;
+  padding: 1rem;
+}
+
+.Querys input::placeholder {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+}
+
+.Querys button {
+  background: rgba(0, 0, 0, 0.12);
+  border: 1px solid #FFFFFF;
+  border-radius: 34px;
+  width: 280px;
+  height: 48px;
+  border-color: #FFFFFF;
+  color: #fff;
+  padding: 1rem;
+}
+
+.Querys button:hover {
+  background: rgb(145 145 145 / 70%);
+}
+
+
+.rectangleDiv7{
+  position: absolute;
+  top: 541px;
+  left: 1008px;
+  transform: rotate(90deg) translate(50px, 323px);
+  background-color: var(--color-white);
+  width: 339px;
+  height: 1px;
+  z-index: 9999999;
+}
+
+.footerParagraph{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  margin: 4rem 10rem;
+  padding-bottom: 8rem;
+}
+
+.closeModal{
+  position: relative;
+  top: -151px;
+  left: 130%;
+  width: 39px;
+  height: 30px;
+}
+
+.status{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.imageLoadingContainer{
+  margin-top: 2rem;
+}
